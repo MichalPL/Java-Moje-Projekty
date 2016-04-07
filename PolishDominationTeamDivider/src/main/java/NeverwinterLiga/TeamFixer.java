@@ -25,7 +25,7 @@ public class TeamFixer {
     {
         double team1wCopy = team1Win;
         double team2wCopy = team2Win;
-       try {
+//       try {
             for (int i = 0; i < team1map.size(); i++) {
                 double val1 = 0;
                 double val2 = 0;
@@ -65,9 +65,9 @@ public class TeamFixer {
             }
            this.team1Win -= 1000;
            this.team2Win -= 1000;
-       } catch (Exception ignored) {
-            alertManager.setError("Błąd przy naprawianiu drużyn!");
-       }
+//       } catch (Exception ignored) {
+//            alertManager.setError("Błąd przy naprawianiu drużyn!");
+//       }
     }
 
     public List<Integer> getTeam1()
