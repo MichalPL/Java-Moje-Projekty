@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="430.0" prefWidth="568.0" xmlns="http://javafx.com/javafx/8.0.40" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#e4e4e4" height="36.0" layoutX="7.0" layoutY="51.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="555.0" />
+      <TextArea layoutX="14.0" layoutY="97.0" prefHeight="201.0" prefWidth="542.0" promptText="Przykład: Test, 1, 3, 3220, 1; (Oznacza gracza Test o doświadczeniu w PvP niskie z całym setem PvP, item lvlu 3220 i jest leaderem teamu)" wrapText="true" id="list"/>
+      <TextArea layoutX="14.0" layoutY="306.0" prefHeight="117.0" prefWidth="221.0" promptText="Tutaj pokaże się wynik" wrapText="true" id="log" />
+      <Label layoutX="13.0" layoutY="34.0" text="Lista osób biorąca udział:" />
+      <Label layoutX="19.0" layoutY="51.0" prefHeight="36.0" prefWidth="533.0" text="nick [A-Z,0-9], doświadczenie PvP [Niski - 1, Średni - 2, Wysoki - 3], set PvP [Nie -1, Częsciowo - 2, Tak - 3], item lvl [0-4300], leader [0 - Nie, 1 - Tak];" wrapText="true" />
+      <Label layoutX="243.0" layoutY="306.0" text="Wagi:" />
+      <Label layoutX="243.0" layoutY="323.0" text="Doświadczenie Pvp:" />
+      <TextField layoutX="354.0" layoutY="319.0" prefHeight="25.0" prefWidth="76.0" text="6" id="expPvP"/>
+      <Label layoutX="243.0" layoutY="360.0" text="Set PvP:" />
+      <TextField layoutX="354.0" layoutY="356.0" prefHeight="25.0" prefWidth="76.0" text="8" id="setPvP"/>
+      <Label layoutX="243.0" layoutY="395.0" text="Item lvl:" />
+      <TextField layoutX="354.0" layoutY="391.0" prefHeight="25.0" prefWidth="76.0" text="9" id="itemPvP"/>
+      <Button layoutX="439.0" layoutY="319.0" mnemonicParsing="false" prefHeight="101.0" prefWidth="118.0" text="Licz!" id="licz">
+         <font>
+            <Font size="34.0" />
+         </font>
+      </Button>
+      <Rectangle arcWidth="5.0" fill="DODGERBLUE" height="36.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="568.0" />
+      <Label layoutX="108.0" layoutY="3.0" text="Polish Domination Neverwinter PvP Liga" textFill="WHITE">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+   </children>
+</Pane>
