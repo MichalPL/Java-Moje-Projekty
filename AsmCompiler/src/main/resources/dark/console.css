@@ -1,0 +1,7 @@
+#console {
+    -fx-text-fill: #e6e6e6;
+}
+
+#console .content {
+    -fx-background-color: #3c3c3c;
+}

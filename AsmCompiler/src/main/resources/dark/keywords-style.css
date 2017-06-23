@@ -1,0 +1,34 @@
+.mnemonic {
+    -fx-fill: blue;
+    -fx-font-weight: bold;
+}
+
+.registry {
+    -fx-fill: darkgreen;
+    -fx-font-weight: bold;
+}
+
+.directive {
+    -fx-fill: crimson;
+    -fx-font-weight: bold;
+}
+
+.label_j {
+    -fx-fill: darkorange;
+    -fx-font-weight: bold;
+}
+
+.comment {
+    -fx-fill: cadetblue;
+}
+
+#codearea {
+    -fx-background-color: #404040;
+    -fx-font-family: consolas;
+    -fx-font-size: 14px
+}
+
+.rest {
+    -fx-fill: whitesmoke;
+
+}

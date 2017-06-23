@@ -1,0 +1,45 @@
+-main=Program/IDE/Main
+-splashgetfrommanifest+
+-outputname=AsmCompiler
+-decor=ht
+-saprofmode=ALWAYS
+-saproftimeout=20
+-versioninfocompanyname=GroupId
+-versioninfoproductname=AsmCompiler
+-versioninfoproductversion=1.0.0.0
+-versioninfolegalcopyright=Copyright \x00a9 2017 GroupId
+-versioninfofiledescription=AsmCompiler
+-startupprofile=C:\Users\Michal\IdeaProjects\AsmCompiler\src\main\jetresources\AsmCompiler.startup
+%-jetvmprop=
+!classpathentry AsmCompiler-1.0-SNAPSHOT.jar
+  -optimize=all
+  -protect=all
+!end
+!classpathentry lib/richtextfx-0.7-M3.jar
+  -optimize=all
+  -protect=all
+!end
+!classpathentry lib/wellbehavedfx-0.3.jar
+  -optimize=all
+  -protect=all
+!end
+!classpathentry lib/undofx-1.2.2.jar
+  -optimize=all
+  -protect=all
+!end
+!classpathentry lib/reactfx-2.0-M5.jar
+  -optimize=all
+  -protect=all
+!end
+!classpathentry lib/flowless-0.5.1.jar
+  -optimize=all
+  -protect=all
+!end
+!classpathentry lib/commons-io-2.5.jar
+  -optimize=all
+  -protect=all
+!end
+!classpathentry lib/ini4j-0.5.4.jar
+  -optimize=all
+  -protect=all
+!end

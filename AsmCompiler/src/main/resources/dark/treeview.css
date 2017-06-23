@@ -1,0 +1,12 @@
+.tree-view, .tree-cell {
+    -fx-background-color: #3c3c3c;
+    -fx-text-fill: white ;
+}
+.tree-cell:expanded, .tree-cell:sub-tree-item {
+    -fx-background-color: #404040 ;
+}
+.tree-cell:selected {
+    -fx-font-weight: bold ;
+    -fx-background-color: blueviolet;
+    -fx-text-fill: white;
+}

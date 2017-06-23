@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.web.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane  prefHeight="578.0" prefWidth="818.0" xmlns="http://javafx.com/javafx/8.0.40" xmlns:fx="http://javafx.com/fxml/1">
+   <top>
+      <BorderPane xmlns="http://javafx.com/javafx/8.0.40" xmlns:fx="http://javafx.com/fxml/1" fx:id="border">
+          <top>
+
+          </top>
+         <bottom>
+            <MenuBar fx:id="menubar" BorderPane.alignment="CENTER">
+            </MenuBar>
+         </bottom>
+      </BorderPane>
+   </top>
+   <left>
+      <TreeView fx:id="projectView" prefHeight="375.0" prefWidth="176.0" BorderPane.alignment="CENTER" />
+   </left>
+   <bottom>
+      <TextArea fx:id="console" editable="false" prefHeight="142.0" prefWidth="818.0" wrapText="true" BorderPane.alignment="TOP_CENTER">
+         <font>
+            <Font name="consolas" size="12.0" /> <!--Monospaced Regular-->
+         </font>
+      </TextArea>
+   </bottom>
+   <center>
+      <TabPane fx:id="editorTabs" BorderPane.alignment="CENTER">
+      </TabPane>
+   </center>
+</BorderPane>

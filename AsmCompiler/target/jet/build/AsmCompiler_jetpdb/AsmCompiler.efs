@@ -1,0 +1,13 @@
+1
+"."
+2
+  DIR "lib" "lib" HIDDEN
+  7
+    FILE "wellbehavedfx-0.3.jar" "AsmCompiler_jetpdb\tmpres\wellbehavedfx-0.3__2.jar" HIDDEN
+    FILE "reactfx-2.0-M5.jar" "AsmCompiler_jetpdb\tmpres\reactfx-2.0-M5__4.jar" HIDDEN
+    FILE "ini4j-0.5.4.jar" "AsmCompiler_jetpdb\tmpres\ini4j-0.5.4__7.jar" HIDDEN
+    FILE "undofx-1.2.2.jar" "AsmCompiler_jetpdb\tmpres\undofx-1.2.2__3.jar" HIDDEN
+    FILE "commons-io-2.5.jar" "AsmCompiler_jetpdb\tmpres\commons-io-2.5__6.jar" HIDDEN
+    FILE "flowless-0.5.1.jar" "AsmCompiler_jetpdb\tmpres\flowless-0.5.1__5.jar" HIDDEN
+    FILE "richtextfx-0.7-M3.jar" "AsmCompiler_jetpdb\tmpres\richtextfx-0.7-M3__1.jar" HIDDEN
+  FILE "AsmCompiler-1.0-SNAPSHOT.jar" "AsmCompiler_jetpdb\tmpres\AsmCompiler-1.0-SNAPSHOT__0.jar" HIDDEN
